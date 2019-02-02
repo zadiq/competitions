@@ -1,0 +1,25 @@
+{
+    "params": {
+        "reg_lambda": 0.0735294,
+        "reg_alpha": 0.041545473,
+        "device_type": "gpu",
+        "subsample_freq": 1,
+        "num_leaves": 20,
+        "metric": "auc",
+        "objective": "binary",
+        "verbose": -1,
+        "colsample_bytree": 0.9497036,
+        "subsample": 0.8715623,
+        "max_depth": 8,
+        "learning_rate": 0.02,
+        "min_split_gain": 0.0222415,
+        "nthread": 4,
+        "gpu_device_id": 0,
+        "boosting_type": "rf",
+        "min_child_weight": 60,
+        "seed": 0
+    },
+    "stratified": true,
+    "num_folds": 10,
+    "version": "v0"
+}

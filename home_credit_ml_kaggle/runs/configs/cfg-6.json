@@ -1,0 +1,49 @@
+{
+    "seed": 290,
+    "version": "v0",
+    "num_folds": 10,
+    "use_class_weights": true,
+    "params": {
+        "num_leaves": 20,
+        "learning_rate": 0.02,
+        "objective": "binary",
+        "subsample_freq": 1,
+        "max_depth": 8,
+        "reg_lambda": 0.0735294,
+        "colsample_bytree": 0.9497036,
+        "reg_alpha": 0.041545473,
+        "gpu_device_id": 0,
+        "seed": 0,
+        "metric": "auc",
+        "device_type": "cpu",
+        "verbose": -1,
+        "min_split_gain": 0.0222415,
+        "boosting_type": "gbdt",
+        "nthread": 4,
+        "min_child_weight": 60,
+        "subsample": 0.8715623
+    },
+    "stratified": false,
+    "board_model": {
+        "batch_size": 100,
+        "gpu_counts": 4,
+        "optimizer": "adam",
+        "layers": [
+            100,
+            150,
+            200,
+            200,
+            150,
+            60
+        ],
+        "epochs": 1000,
+        "layer_params": {
+            "activation": "relu"
+        },
+        "model_folder": null,
+        "dropout": [],
+        "use_multi_gpu": true,
+        "which": 0,
+        "optimizer_params": {}
+    }
+}

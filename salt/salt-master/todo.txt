@@ -1,0 +1,26 @@
+[ ]:    combine dice_loss with weight_wrapper
+[ ]:    use batch normalization
+[ ]:    save unet last layers and masks and use to train deeplab
+[ ]:    apply crf
+[ ]:    use other weight_wrapper protocol
+[ ]:    investigate more augmentations
+[ ]:    apply multiple thresholds on output and find the best one based on map
+[ ]:    create submission script
+[ ]:    loop thru generator, store (image, mask and prediction), turn into RGB and save as image
+[ ]:    use bayes optimization to perform weighted threshold blending
+[ ]:    CREATE A SCRIPT THAT EXTENDS LINE TO EDGE
+[ ]:    Create a model that detects when image contains a mask or not
+[ ]:    remove dropouts in UNET and use heavy augmentation
+[ ]:    Models:
+        [ ]:    Mask predictor
+        [ ]:    Edge predictor
+        [ ]:    Mask or no mask predictor
+        [ ]:    Combined predictor
+        [ ]:    Use adversarial model
+[ ]:    investigate:
+        [ ]:    ZF_UNET_224_Pretrained_Model
+        [ ]:    qubvel/segmentation_models
+        [ ]:    semi supervised
+        [ ]:    https://github.com/bstriner/keras-adversarial
+[ ]:    MUST READ: https://medium.com/@keremturgutlu/semantic-segmentation-u-net-part-1-d8d6f6005066
+[ ]:    https://towardsdatascience.com/gan-by-example-using-keras-on-tensorflow-backend-1a6d515a60d0

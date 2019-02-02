@@ -1,0 +1,3 @@
+http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
+
+Investigate why MLPClassifier outputs different numpy after a while
